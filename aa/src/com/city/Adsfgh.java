@@ -98,6 +98,8 @@ public class Adsfgh {
 		Boolean a = false;
 
 		System.out.println(a.getClass().getName());
+		System.out.println(a.getClass().getName());
+		System.out.println(a.getClass().getName());
 
 		boolean b = false;
 
