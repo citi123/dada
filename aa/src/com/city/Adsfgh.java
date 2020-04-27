@@ -39,10 +39,10 @@ enum School{
 	CHUZHONG("初中","a"),
 	GAOZHONG("高中","b"),
 	DAXUE("大学","c");
-	
+
 	private String name;
 	private String code;
-	
+
 	School(String name,String code){
 		this.name = name;
 		this.code = code;
@@ -54,13 +54,13 @@ public class Adsfgh {
 		String a = m.putIfAbsent("a", "a");
 		System.out.println("a:" + a);
 		System.out.println(m);
-		
+
 		a = m.putIfAbsent("a", "b");
 		System.out.println("a:" + a);
 		System.out.println(m);
-		
+
 		System.out.println();
-		
+
 	}
 	static void dd(){
 		//对方告诉对方告诉对方
@@ -69,7 +69,7 @@ public class Adsfgh {
 		treeMap.put("c", "c");
 		treeMap.put("d", "d");
 		treeMap.put("b", "b");
-		
+
 		Iterator<Object> iterrator = treeMap.values().iterator();
 		while(iterrator.hasNext()){
 			System.out.println(iterrator.next());
@@ -155,5 +155,9 @@ public class Adsfgh {
 
 	static void aa(Long a) {
 		System.out.println(a.intValue());
+	}
+
+	static void bb(){
+		// 注释注释
 	}
 }
